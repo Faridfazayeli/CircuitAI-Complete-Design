@@ -1,0 +1,85 @@
+﻿# محیط‌های توسعه
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# لاگ‌ها
+*.log
+npm-debug.log*
+yarn-debug.log*
+logs/
+*.logs
+
+# دایرکتوری‌های runtime
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+.pnp
+.pnp.js
+
+# خروجی‌های build
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# فایل‌های IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# فایل‌های سیستم
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+
+# دیتابیس
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# آپلودها
+uploads/
+storage/
+media/
+
+# مدل‌های ML
+models/*.h5
+models/*.pth
+models/*.pb
+*.weights
+*.onnx
+
+# فایل‌های محرمانه
+*.pem
+*.key
+*.crt
+secrets.json
+config.json
+credentials.json
+
+# تست‌ها
+coverage/
+.nyc_output
+
+# داکر
+docker-compose.override.yml
+
+# پکیج‌ها
+*.tgz
+*.zip
